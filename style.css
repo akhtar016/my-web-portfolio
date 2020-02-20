@@ -38,7 +38,7 @@ width: 100%;
 }
 .half-width-n p{
     text-align: justify;
-    padding-right: 70px;
+    padding-right: 75px;
 }
 
 .half-width-n img{
@@ -72,4 +72,34 @@ section{
     background-image: linear-gradient(45deg, lightsalmon, tomato );
     
     
+}
+#exp-padding-add{
+    padding-left: 7%;
+}
+.single-experience-area{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato) ;
+    border-image-slice: 1;
+}
+#junior-level{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    padding-right: 2%;
+}
+footer p{
+    text-align: center;
 }
